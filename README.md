@@ -1,4 +1,5 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
+Simple message sending application designed to learn WebSocket technology. Users will receive real time updates on messages sent by other users in other connections.
 
 ## Run the application: 
  
