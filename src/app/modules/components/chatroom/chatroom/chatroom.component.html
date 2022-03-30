@@ -1,0 +1,8 @@
+<textarea
+  [formControl]="inputMessage"
+  placeholder="Escreva sua mensagem aqui"
+></textarea>
+<button type="submit" (click)="emitMessage()">Envie sua mensagem</button>
+<p *ngFor="let message of messages">
+  {{ message }}
+</p>
